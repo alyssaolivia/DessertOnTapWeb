@@ -12,7 +12,6 @@ namespace DessertOnTapWeb.Models
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
-        public Address Address { get; set; }
         public DateTime DateOfBirth {get;set;}
         [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
